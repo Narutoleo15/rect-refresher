@@ -1,3 +1,33 @@
+* {
+	margin: 0;
+	padding: 0%;
+	box-sizing: border-box;
+}
+form {
+	display: flex;
+	justify-content: center;
+	margin: 20px auto;
+}
+input {
+	width: 20.5rem;
+	height: 2rem;
+	font-size: large;
+	background-color: grey;
+}
 li {
+	min-width: 200px;
 	list-style: none;
+	display: flex;
+	justify-content: space-between;
+	margin: 2rem 5rem;
+	padding: 1rem;
+	background: hsl(100, 50%, 50%);
+}
+button :hover {
+	background-color: darkgray;
+}
+li button {
+	width: 3.5rem;
+	height: 2rem;
+	border-radius: 20% 20% 50% 50%;
 }
