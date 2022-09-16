@@ -1,11 +1,12 @@
 import './App.css';
+import React from 'react';
 import Todo from './Todo/Todo'
-import Header from './Header/Header'
 
 function App() {
   return (
-    <Header />,
+
     <Todo />
+
   );
 }
 
