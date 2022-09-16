@@ -31,7 +31,7 @@ export default function Todo() {
     return (
         <section>
             <form onSubmit={handleSubmit}>
-                <input type="text" />
+                <input type="text " ref={input} />
                 <button type='submit'>Add Item</button>
             </form>
             <section>
