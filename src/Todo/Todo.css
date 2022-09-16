@@ -3,6 +3,13 @@
 	padding: 0%;
 	box-sizing: border-box;
 }
+section {
+	background: hsl(1, 80%, 40%);
+	height: 100vh;
+}
+.center {
+	text-align: center;
+}
 form {
 	display: flex;
 	justify-content: center;
@@ -12,7 +19,7 @@ input {
 	width: 20.5rem;
 	height: 2rem;
 	font-size: large;
-	background-color: grey;
+	background-color: hsl(100, 50%, 50%);
 }
 li {
 	min-width: 200px;

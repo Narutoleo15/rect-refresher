@@ -30,6 +30,7 @@ export default function Todo() {
     })
     return (
         <section>
+            <h1 class="center">Todo</h1>
             <form onSubmit={handleSubmit}>
                 <input type="text " ref={input} />
                 <button type='submit'>Add Item</button>
@@ -39,6 +40,6 @@ export default function Todo() {
                     {list}
                 </ul>
             </section>
-        </section>
+        </section >
     )
 }
